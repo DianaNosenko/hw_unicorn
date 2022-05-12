@@ -1,0 +1,85 @@
+@media (max-width:1010px) {
+    footer {
+        margin-top: 550px;}
+    .mainInfoText {
+        font-size: 40px;
+        line-height: 50px;
+    }}
+
+@media (max-width:770px) {
+    .main_wrapper {
+        min-width: 375px;
+    }
+    aside {
+        width: 70px;
+    }
+    .asideMore {
+        display: none;
+    }
+
+    main {
+        min-width: 100px;
+        max-width: 700px;
+    }
+    .burgerMenu {
+        top: 35px;
+        left: 15px;
+
+    }
+    .logoHeader {
+        top: 23px;
+        left: 67px;
+    
+
+    }
+    .headerMenu {
+        padding-left: 40px;
+        padding-bottom: 100px;
+
+    }
+    .headerMenu a {
+        font-size: 32px;
+        line-height: 38px;
+        font-family: 'ZonaPro';
+    }
+
+
+    .button1 {
+        height: 98px;
+        width: 98px;
+        background-color: #CE0002;
+        padding-top: 38px;
+        padding-left: 35px;
+
+
+    }
+    .mainInfoText {
+        width: 350px;
+        height: 215px;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 400px;
+
+    }
+    .unicornContainer {
+        margin-top: -650px;
+        margin-left: 90px;
+        width: 370px;
+        height: 370px;
+    }
+    .mainInfoBtn {
+        flex-direction: column;
+    }
+    .button2 {
+        margin-bottom: 25px;
+    }
+    .footerMenu {
+        display: none;
+    }
+    .clear {
+        height: 50px;
+    }
+    .footerArticle3 {
+        width: 40%;}
+
+}

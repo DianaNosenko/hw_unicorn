@@ -1,0 +1,151 @@
+@media (max-width:1630px) {
+    .mainInfoText {
+        max-width: 867px;
+       
+    }
+}
+@media (max-width:1300px) {
+    aside {
+        width: 97px;
+        height: 970px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .burgerMenu {
+        display: block;
+        position: relative;
+        width: 34px;
+        height: 30px;
+        top: 46px;
+        left: 30px;
+        z-index: 11;
+    }
+    span {
+        content:'';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        transition: all 0.3s ease 0s;
+    }
+    span:nth-child(1) {
+        margin-top: -13px;
+
+    }
+    span:nth-child(3) {
+        margin-top:13px;
+    
+    }
+
+
+.first{
+    transform:  rotate(45deg);
+    top: 10px;
+
+  }
+ 
+  .middle{
+    transform: scale(0);
+  }
+ 
+  .last{
+    transform:  rotate(-45deg);
+    bottom: 30px;
+    }
+    /*запрет скрола при открытом меню*/
+    .lock {
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    .logoAside {
+        display: none;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoHeader {
+     display: block;
+     margin-top: 34px;
+     margin-left: 41px;
+     z-index: 11;
+    }
+
+    .headerMenu {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        opacity: 95%;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        padding-left: 90px;
+        z-index: 10;
+        overflow: auto;
+        padding-bottom: 100px;
+       
+    
+    }
+    .active {
+        top: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .headerList {
+        height: 722px;
+        width: 750px;
+        margin-top: 330px;
+        margin-right: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Zona Pro';
+    }
+    .headerList a {
+        font-family: 'Zona Pro';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+    .button1 {
+        z-index: 11;
+       
+    }
+
+
+
+    .mainInfoText {
+        max-width: 907px;
+        margin-top: 120px;
+        margin-left: -45px;
+        margin-bottom: 25px;
+       
+    }
+    .mainInfoBtn {
+        margin-left: -45px;
+    }
+    .unicornContainer {
+        margin-top: 40px;
+        margin-left: 90px;
+        width: 740px;
+        height: 740px;
+    }
+    main {
+        background-color: #ffea2f;
+        height: 1469px;
+    }
+    footer {
+        margin-top: 490px;
+    }
+    .clear {
+        height: 50px;
+}
+}

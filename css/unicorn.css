@@ -1,0 +1,27 @@
+:root {
+    --lily: #6400ce;
+    --darkViolet: #531484;
+    --violet: #812da5;
+    --black: #232323;
+    --darkGray: #353535;
+    --beige: #e2d7d7;
+    --lightGray: #e4dfe8;
+    --rose: #ffc0c0;
+    --darkBlue: #3f2a5e;
+
+
+}
+.unicornContainer {
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -600px;
+    
+}
+.unicornContainer div {
+    width: 3.33%;
+    height: 3.33%;
+    position: absolute;
+    
+}
